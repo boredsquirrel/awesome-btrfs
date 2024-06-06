@@ -130,6 +130,8 @@ Consists of a Windows and a Linux executable. Does not work on the primary drive
 ## Data recovery
 When having deleted or corrupted data on a BTRFS partition, these tools can help:
 
+not tested are marked with "?"
+
 ### Testdisk?
 + photorec?
 
