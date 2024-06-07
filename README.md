@@ -84,7 +84,7 @@ Set BTRFS snapshots as boot options
 > - Perform scrub periodically if the system is not on battery
 > - Optionally schedule balancing operations as well
 
-### [dupreremove](https://markfasheh.github.io/duperemove/duperemove.html)
+### [duperemove](https://markfasheh.github.io/duperemove/duperemove.html)
 - [Code](https://github.com/markfasheh/duperemove)
 - [Gentoo Wiki](https://wiki.gentoo.org/wiki/Duperemove)
 
