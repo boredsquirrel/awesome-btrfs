@@ -71,7 +71,7 @@ Set BTRFS snapshots as boot options
 - [Ubuntu guide](https://www.lorenzobettini.it/2022/10/timeshift-and-grub-btrfs-in-ubuntu/)
 - [blog post](https://www.lorenzobettini.it/2022/07/timeshift-and-grub-btrfs-in-linux-arch)
 
-### [btrfs-sxbackup])https://github.com/masc3d/btrfs-sxbackup)
+### [btrfs-sxbackup](https://github.com/masc3d/btrfs-sxbackup)
 > Incremental btrfs snapshot backups with push/pull support via SSH 
 
 ## Small CLI tools
