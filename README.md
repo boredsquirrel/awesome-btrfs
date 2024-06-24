@@ -14,6 +14,13 @@ It requires `snapper` and offers a GUI for it.
 
 ![](https://gitlab.com/-/project/32535488/uploads/21da59577c3e8a101347cf0d59569c09/image.png)
 
+### [btrfs maintenance](https://github.com/kdave/btrfsmaintenance)
+> This is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, trim or defragmentation.
+> 
+> Each of the tasks can be turned on/off and configured independently. The default config values were selected to fit the default installation profile with btrfs on the root filesystem.
+>
+> Overall tuning of the default values should give a good balance between effects of the tasks and low impact of other work on the system. If this does not fit your needs, please adjust the settings.
+
 ### [butter-manager](https://github.com/egara/buttermanager)
 > Tool for managing snapshots, balancing filesystems and upgrading the system safetly.
 
