@@ -145,7 +145,9 @@ not tested are marked with "?"
 ### Scalpel?
 
 ### [R-Linux](https://www.r-studio.com/free-linux-recovery)
-Freeware, not FOSS? Not related to [R](https://www.r-project.org) and "R-Studio" is also not related to [RStudio](https://www.rstudio.com/categories/rstudio-ide)
+Freeware, not FOSS.
+
+Not related to [R](https://www.r-project.org) and "R-Studio" is also not related to [RStudio](https://www.rstudio.com/categories/rstudio-ide)
 
 ## BTRFS bindings
 These allow you to do BTRFS actions in many programming languages
