@@ -1,11 +1,11 @@
 # Collection of BTRFS tools
 
 Content
-- [Backups and Snapshots](https://github.com/boredsquirrel/awesome-btrfs#backups--snapshots)
-- [Small CLI tools](https://github.com/boredsquirrel/awesome-btrfs#small-cli-tools)
-- [Partition managers](https://github.com/boredsquirrel/awesome-btrfs#partition-managers)
-- [Data recovery](https://github.com/boredsquirrel/awesome-btrfs#data-recovery) 🚧 (incomplete)
-- [Programming: BTRFS bindings](https://github.com/boredsquirrel/awesome-btrfs#btrfs-bindings)
+- [Backups and Snapshots](#backups--snapshots)
+- [Small CLI tools](#small-cli-tools)
+- [Partition managers](#partition-managers)
+- [Data recovery](#data-recovery) 🚧 (incomplete)
+- [Programming: BTRFS bindings](#btrfs-bindings)
 
 ## General
 ### [BTRFS CLI Interface](https://btrfs.readthedocs.io/en/latest/index.html)
