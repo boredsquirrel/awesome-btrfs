@@ -63,6 +63,18 @@ Currently maintained by LinuxMint, even though they dont use BTRFS by default, i
 - [Its FOSS Guide](https://itsfoss.com/backup-restore-linux-timeshift/)
 - [\[DE\] Linuxcommunity Guide](https://www.linux-community.de/ausgaben/linuxuser/2019/06/zeitsprung)
 
+### [Butter](https://github.com/zhangyuannie/butter)
+A GTK Snapshot tool for BTRFS
+
+![](https://raw.githubusercontent.com/boredsquirrel/awesome-btrfs/refs/heads/main/images/butter-btrfs-snapshots.jpg)
+
+Stable versions:
+- [Fedora COPR repo](https://copr.fedorainfracloud.org/coprs/zhangyuannie/butter)
+
+Development versions:
+- [Fedora COPR repo](https://copr.fedorainfracloud.org/coprs/zhangyuannie/butter-git)
+- [Arch AUR package](https://aur.archlinux.org/packages/butter-git)
+
 ### [libtuikit / transactional-update](https://github.com/openSUSE/transactional-update)
 Used in OpenSUSE microOS and the Desktop variants.
 
