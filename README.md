@@ -1,3 +1,12 @@
+# Collection of BTRFS tools
+
+Content
+- [Backups and Snapshots](https://github.com/boredsquirrel/awesome-btrfs#backups--snapshots)
+- [Small CLI tools](https://github.com/boredsquirrel/awesome-btrfs#small-cli-tools)
+- [Partition managers](https://github.com/boredsquirrel/awesome-btrfs#partition-managers)
+- [Data recovery](https://github.com/boredsquirrel/awesome-btrfs#data-recovery) 🚧 (incomplete)
+- [Programming: BTRFS bindings](https://github.com/boredsquirrel/awesome-btrfs#btrfs-bindings)
+
 ## General
 ### [BTRFS CLI Interface](https://btrfs.readthedocs.io/en/latest/index.html)
 - [Fedora Magazine](https://fedoramagazine.org/working-with-btrfs-snapshots/)
@@ -128,11 +137,46 @@ Consists of a Windows and a Linux executable. Does not work on the primary drive
 ### [WinBTRFS](https://github.com/maharmstone/btrfs)
 > filesystem driver for Windows
 
-## Partition managers with support
+## Partition managers
+
+### GUI
 - KDE-Partitionamanger
 - GNOME-Disks
 - blivet-gui (Fedora Anaconda setup)
 - gparted ?
+
+### CLI
+- `fdisk`, `parted` (for partitions)
+- `cryptsetup` for LUKS containers
+- `mkfs.btrfs` to create a BTRFS partition
+- `btrfs` to create volumes
+
+example
+
+```
+# encrypt a partition
+cryptsetup luksFormat -y -c aes-xts-plain64 -s 512 /dev/DEVICE2
+cryptsetup luksOpen /dev/DEVICE2 luksdev
+
+# make BTRFS filesystem
+mkfs.btrfs -L Gentoo /dev/mapper/luksdev
+
+# mount
+mount /dev/mapper/luksdev /mnt/gentoo
+
+# subvolumes
+btrfs subvolume create /mnt/gentoo/root
+btrfs subvolume create /mnt/gentoo/usr
+btrfs subvolume create /mnt/gentoo/etc
+btrfs subvolume create /mnt/gentoo/snapshots
+btrfs subvolume create /mnt/gentoo/var
+btrfs subvolume create /mnt/gentoo/var/tmp
+chmod 1777 /mnt/gentoo//var/tmp
+btrfs subvolume create /mnt/gentoo/home
+
+# list subvolumes
+btrfs subvolume list /mnt/gentoo
+```
 
 ## Data recovery
 When having deleted or corrupted data on a BTRFS partition, these tools can help:
