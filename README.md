@@ -41,6 +41,10 @@ It requires `snapper` and offers a GUI for it.
 
 Backup utility using BTRFS
 
+Tools around btrbk:
+- [btrbk_tui](https://github.com/rylos/btrbk_tui): terminal UI to browse, restore and create btrbk snapshots, and purge old ones without breaking the incremental chain
+- [btrbk-nas](https://github.com/rylos/btrbk-nas): Synology DSM 7 app showing the btrbk backups a NAS receives: freshness, interrupted receives, next incremental parent, safe deletion, file browser
+
 ### [Snapper](http://snapper.io)
 General system snapshot utility with BTRFS support, used in OpenSUSE Tumbleweed by default. There are also [plugins for Fedoras dnf](https://fedoramagazine.org/make-use-of-btrfs-snapshots-to-upgrade-fedora-linux-with-easy-fallback/) and for [Arch pacman](https://www.dwarmstrong.org/btrfs-snapshots-rollbacks).
 
